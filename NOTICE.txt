@@ -1,0 +1,3 @@
+This project incorporates the following images licensed under Apache 2.0:
+
+    - GitHub logo Icon - © Zendesk Garden - https://icon-icons.com/icon/github-logo/143772.

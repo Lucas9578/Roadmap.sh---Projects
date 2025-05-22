@@ -1,4 +1,13 @@
 # Roadmap.sh---Projects
-## List of Projects
 
-[Single-Page CV](https://roadmap.sh/projects/single-page-cv): https://roadmap.sh/projects/single-page-cv
+## List of Roadmap.sh Projects
+
+[Single-Page CV](https://roadmap.sh/projects/single-page-cv)
+
+[Basic HTML Website](https://roadmap.sh/projects/basic-html-website)
+
+## List of Completed Projects
+
+[Single-Page CV](https://github.com/Lucas9578/Roadmap.sh---Projects/tree/main/1%20-%20Single-Page%20CV)
+
+[Basic HTML Website]()
