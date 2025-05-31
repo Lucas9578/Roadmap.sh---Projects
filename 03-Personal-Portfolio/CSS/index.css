@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: Impact, sans-serif;
+    font-weight: normal;
+}
+body{
+    width: 100vw;
+    min-height: 100vh;
+}
+
+/* Start Navbar */
+
+#navbar{
+    width: 100vw;
+    min-height: 70px;
+    max-height: 140px;
+
+    background-color: #000;
+    color: #fff;
+    border-bottom: 2px solid #2147d0;
+}
+#navbar div{
+    width: 100%;
+    height: 3em;
+    padding: 10px 1em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.4rem;
+}
+#navbar div h1{
+    font-size: 3rem;
+    margin-left: 30px;
+}
+
+
+#navbar nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#navbar nav a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+
+    font-size: 1rem;
+    text-align: center;
+
+    min-width: 60px;
+    max-width: 200px;
+    width: 200px;
+    margin: 0 1em;
+    padding: 15px 16px;
+    
+}
+#navbar nav a:hover{
+    background-color: grey;
+}
+#navbar .separador {
+    border-left: 1px solid #ccc;
+    height: 25px;
+    display: inline-block;
+}
+
+/*End NavBar*/
+
+#headContent{
+    width: 100vw;
+    height: 40vh;
+    background: center url(../Images/Fondo_Programacion.jpg);
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: #fff;
+    text-shadow: #000000 3px 3px 3px;
+    text-align: center;
+
+    border-bottom: 2px solid #2147d0;
+}
+#headContent h2{
+    font-size: 3rem;
+}
+
+
+#content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.contents{
+    width: 100vw;
+    margin: 0.5em 0 1em 0;
+    padding: 1em 2em;
+    background-color: #fff;
+}
+.contents h2{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 0.5em;
+    text-shadow: #4f4f4f 1px 1px 1px;
+}
+.articles{
+    min-height: 350px;
+    margin: 1em;
+    padding: 1em 2em;
+
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(79, 78, 78, 0.371);
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.articles h3{
+    display: inline-block;
+    margin: 0.5em auto 1em auto;
+    font-size: 1.5rem;
+
+}
+
+#projects{
+    min-width: 250px;
+    max-width: 350px;
+}
+#projects a{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 15px;
+    
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+#projects a:hover{
+    background-color: #2147d0;
+    color: #fff;
+}
+#projects hr{
+    width: 80%;
+    margin: 0.5em auto;
+}
+
+#experience{
+    min-width: 280px;
+    max-width: 400px;
+}
+#experience div{
+    margin: 0 0 0 0;
+}
+#experience div h4{
+    margin-bottom: 0.5em;
+    font-size: 1.2rem;
+}
+#experience hr{
+    width: 100%;
+    margin: 1.5em auto;
+}
+#education{
+    min-width: 280px;
+    max-width: 500px;
+}
+
+#reviews{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#reviews .messages{
+    min-width: 280px;
+    max-width: 350px;
+    padding: 1em;
+    margin: 1em 1em;
+
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(79, 78, 78, 0.371);
+}
+#reviews .messages .person-info{
+    margin-top: 1em;
+}
+
+
+/* START Footer */
+
+footer{
+    width: 100vw;
+    height: 50px;
+    bottom: 0;
+
+    background-color: #000;
+    border-top: 2px solid #2147d0;
+    box-shadow: 10px 20px 30px  rgba(0, 0, 0, 0.371);
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.2rem;
+}
+
+/* END Footer*/
+
+
+/* Media Query */
+
+@media screen and (max-width: 500px) {
+    #navbar div h1{
+        font-size: 2rem;
+        margin-left: 30px;
+    }
+    #navbar nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #navbar nav a{
+        font-size: 0.7rem;
+        padding: 10px 12px;
+    }
+}

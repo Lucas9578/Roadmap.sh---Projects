@@ -6,6 +6,8 @@
 
 [Basic HTML Website](https://roadmap.sh/projects/basic-html-website)
 
+[Personal Portfolio](https://roadmap.sh/projects/portfolio-website)
+
 ## List of Completed Projects
 
 [Single-Page CV](https://github.com/Lucas9578/Roadmap.sh---Projects/tree/main/1%20-%20Single-Page%20CV)

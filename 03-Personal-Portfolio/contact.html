@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Personal Portfolio - Contact</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Basic Personal Portfolio for roadmap.sh Projects" />
+    <meta name="keywords" content="Frontend Developer, HTML, CSS, Roadmap.sh, Website, Web Development, Portfolio" />
+    <meta name="author" content="Lucas Diaz" />
+
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="icon" type="image/x-icon" href="Images/Logo.jpg" />
+</head>
+
+<body>
+    <header id="navbar">
+        <div>
+            <img src="Images/Logo.jpg" width="40em" alt="Logo">
+            <h1>Lucas Diaz</h1>
+        </div>
+        <nav>
+            <a href="index.html">Home Page</a>
+            <span class="separador"></span>
+            <a href="projects.html">Projects</a>
+            <span class="separador"></span>
+            <a href="articles.html">Articles</a>
+            <span class="separador"></span>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Contact Me</h2>
+            <div class="divisions">
+                <form action="submit_form.php" method="post">
+                    <div id="contact-form">
+                        <label for="name">Name:</label>
+                        <input placeholder="Name" type="text" id="name" name="name" required>
+
+                        <label for="email">Email:</label>
+                        <input placeholder="Email" type="email" id="email" name="email" required>
+
+                        <label for="message">Message:</label>
+                        <textarea placeholder="Enter your message here." id="message" name="message" required></textarea>
+                        
+                        <button type="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;All rights reserved 2025</p>
+    </footer>
+</body>
+
+</html>
