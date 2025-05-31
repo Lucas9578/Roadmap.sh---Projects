@@ -10,6 +10,8 @@
 
 ## List of Completed Projects
 
-[Single-Page CV](https://github.com/Lucas9578/Roadmap.sh---Projects/tree/main/1%20-%20Single-Page%20CV)
+[Single-Page CV](https://github.com/Lucas9578/Roadmap.sh---Projects/tree/main/01-Single-Page-CV)
 
-[Basic HTML Website](https://github.com/Lucas9578/Roadmap.sh---Projects/tree/main/2%20-%20Basic%20HTML%20Website)
+[Basic HTML Website](https://github.com/Lucas9578/Roadmap.sh---Projects/tree/main/02-Basic-HTML-Website)
+
+[Personal Portfolio](https://github.com/Lucas9578/Roadmap.sh---Projects/tree/main/03-Personal-Portfolio)

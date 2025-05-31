@@ -1,5 +1,9 @@
 # Personal Portfolio
 
+![Personal Portfolio Image - Desktop](../Resources/Images/03-Personal-Portfolio-desk.png)
+
+![Personal Portfolio Image - Movil](../Resources/Images/03-Personal-Portfolio-movil.png.png)
+
 > The goal of this project is to teach you how to style a website using CSS. You will take the structure from the previous HTML-only project and apply various CSS techniques to enhance its appearance and responsiveness.
 
 ## Submission Checklist
