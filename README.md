@@ -8,7 +8,9 @@
 
 [Personal Portfolio](https://roadmap.sh/projects/portfolio-website)
 
-## List of Completed Projects
+[Changelog Component](https://roadmap.sh/projects/changelog-component)
+
+## Roadmap.sh Completed Projects list
 
 [Single-Page CV](https://github.com/Lucas9578/Roadmap.sh---Projects/tree/main/01-Single-Page-CV)
 
