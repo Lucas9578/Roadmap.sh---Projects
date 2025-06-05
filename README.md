@@ -17,3 +17,5 @@
 [Basic HTML Website](https://github.com/Lucas9578/Roadmap.sh---Projects/tree/main/02-Basic-HTML-Website)
 
 [Personal Portfolio](https://github.com/Lucas9578/Roadmap.sh---Projects/tree/main/03-Personal-Portfolio)
+
+[Changelog Component](https://github.com/Lucas9578/Roadmap.sh---Projects/tree/main/04-Changelog-Component)
