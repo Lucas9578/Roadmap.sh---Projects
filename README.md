@@ -2,13 +2,15 @@
 
 ## List of Roadmap.sh Projects
 
-[Single-Page CV](https://roadmap.sh/projects/single-page-cv)
+- [Single-Page CV](https://roadmap.sh/projects/single-page-cv)
 
-[Basic HTML Website](https://roadmap.sh/projects/basic-html-website)
+- [Basic HTML Website](https://roadmap.sh/projects/basic-html-website)
 
-[Personal Portfolio](https://roadmap.sh/projects/portfolio-website)
+- [Personal Portfolio](https://roadmap.sh/projects/portfolio-website)
 
-[Changelog Component](https://roadmap.sh/projects/changelog-component)
+- [Changelog Component](https://roadmap.sh/projects/changelog-component)
+
+- [Testimonial Cards](https://roadmap.sh/projects/testimonial-cards)
 
 ## Roadmap.sh Completed Projects list
 
@@ -19,3 +21,5 @@
 [Personal Portfolio](https://github.com/Lucas9578/Roadmap.sh---Projects/tree/main/03-Personal-Portfolio)
 
 [Changelog Component](https://github.com/Lucas9578/Roadmap.sh---Projects/tree/main/04-Changelog-Component)
+
+[Testimonial Cards](https://github.com/Lucas9578/Roadmap.sh---Projects/tree/main/05-Testimonial-Cards)
