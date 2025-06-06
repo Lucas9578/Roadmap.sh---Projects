@@ -12,6 +12,8 @@
 
 - [Testimonial Cards](https://roadmap.sh/projects/testimonial-cards)
 
+- [Datepicker UI](https://roadmap.sh/projects/datepicker-ui)
+
 ## Roadmap.sh Completed Projects list
 
 [Single-Page CV](https://github.com/Lucas9578/Roadmap.sh---Projects/tree/main/01-Single-Page-CV)
@@ -23,3 +25,5 @@
 [Changelog Component](https://github.com/Lucas9578/Roadmap.sh---Projects/tree/main/04-Changelog-Component)
 
 [Testimonial Cards](https://github.com/Lucas9578/Roadmap.sh---Projects/tree/main/05-Testimonial-Cards)
+
+[Datepicker UI](https://github.com/Lucas9578/Roadmap.sh---Projects/tree/main/06-Datepicker-UI)
