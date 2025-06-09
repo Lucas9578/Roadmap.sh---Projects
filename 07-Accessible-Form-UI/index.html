@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Accessible Form UI</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="  " />
+    <meta name="keywords" content="  " />
+    <meta name="author" content="Lucas Diaz" />
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="icon" type="image/x-icon" href="../Images/Logo.jpg" />
+</head>
+
+<body>
+    <section class="form">
+        <div class="form--container">
+            <form action="" method="get">
+                <label for="name">Full Name</label>
+                <input class="form--container__inputs" type="text" id="name" required placeholder="What should we call you?">
+                <span class="error--messages">The name is incorrect</span>
+
+                <label for="email">Email</label>
+                <input class="form--container__inputs" type="email" id="email" required placeholder="john@doe.com">
+
+                <label for="email">Enter Password</label>
+                <span>
+                    <input class="form--container__inputs" type="password" id="password" required placeholder="xxxxxxxx">
+                    <button type="button" class="password--visibility"><img src="https://cdn-icons-png.flaticon.com/128/159/159604.png" alt="" style="width: 20px; height: 20px;"></button>
+                </span>
+                
+                <label for="confirm-email">Confirm Password</label>
+                <span>
+                    <input class="form--container__inputs" type="password" id="confirm-password" required placeholder="xxxxxxxx">
+                    <button type="button" class="password--visibility"><img src="https://cdn-icons-png.flaticon.com/128/159/159604.png" alt="" style="width: 20px; height: 20px;"></button>
+                </span>
+                
+                <button id="submit--button" type="submit">Sign Up</button>
+            </form>
+        </div>
+        <div class="progress--container">
+            <div class="circular--progress">
+                <div class="inner--circle">
+                    <span class="progress--value">75%</span>
+                </div>
+            </div>
+            <h2>Profile Completeness</h2>
+            <div class="progress--container__items">
+                <p>Create Account</p>
+                <p>Update Roadmap Progress</p>
+                <p>Setup Public Profile</p>
+                <p>Complete your firs project</p>
+                <p>Invite your Friends</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
