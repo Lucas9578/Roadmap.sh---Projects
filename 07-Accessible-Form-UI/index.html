@@ -14,44 +14,43 @@
 </head>
 
 <body>
-    <section class="form">
+    <section class="form" aria-labelledby="form-heading">
         <div class="form--container">
-            <form action="" method="get">
+            <form action="" method="get" aria-label="Registration form">
                 <label for="name">Full Name</label>
-                <input class="form--container__inputs" type="text" id="name" required placeholder="What should we call you?">
-                <span class="error--messages">The name is incorrect</span>
-
+                <input class="form--container__inputs" type="text" id="name" required aria-required="true" placeholder="What should we call you?">
+                
                 <label for="email">Email</label>
-                <input class="form--container__inputs" type="email" id="email" required placeholder="john@doe.com">
+                <input class="form--container__inputs" type="email" id="email" required aria-required="true" placeholder="john@doe.com">
 
-                <label for="email">Enter Password</label>
+                <label for="password">Enter Password</label>
                 <span>
-                    <input class="form--container__inputs" type="password" id="password" required placeholder="xxxxxxxx">
-                    <button type="button" class="password--visibility"><img src="https://cdn-icons-png.flaticon.com/128/159/159604.png" alt="" style="width: 20px; height: 20px;"></button>
+                    <input class="form--container__inputs" type="password" id="password" required aria-required="true" placeholder="xxxxxxxx">
+                    <button type="button" class="password--visibility" aria-label="Show password"><img src="https://cdn-icons-png.flaticon.com/128/159/159604.png" aria-hidden="true" style="width: 20px; height: 20px;"></button>
                 </span>
                 
-                <label for="confirm-email">Confirm Password</label>
+                <label for="confirm-password">Confirm Password</label>
                 <span>
-                    <input class="form--container__inputs" type="password" id="confirm-password" required placeholder="xxxxxxxx">
-                    <button type="button" class="password--visibility"><img src="https://cdn-icons-png.flaticon.com/128/159/159604.png" alt="" style="width: 20px; height: 20px;"></button>
+                    <input class="form--container__inputs" type="password" id="confirm-password" required aria-required="true" placeholder="xxxxxxxx">
+                    <button type="button" class="password--visibility" aria-label="Show password"><img src="https://cdn-icons-png.flaticon.com/128/159/159604.png" aria-hidden="true" style="width: 20px; height: 20px;"></button>
                 </span>
                 
                 <button id="submit--button" type="submit">Sign Up</button>
             </form>
         </div>
-        <div class="progress--container">
-            <div class="circular--progress">
+        <div class="progress--container" role="region" aria-labelledby="progress-heading">
+            <div class="circular--progress" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" aria-valuetext="75 percent">
                 <div class="inner--circle">
-                    <span class="progress--value">75%</span>
+                    <span class="progress--value" aria-hidden="true">75%</span>
                 </div>
             </div>
             <h2>Profile Completeness</h2>
             <div class="progress--container__items">
-                <p>Create Account</p>
-                <p>Update Roadmap Progress</p>
-                <p>Setup Public Profile</p>
-                <p>Complete your firs project</p>
-                <p>Invite your Friends</p>
+                <p role="listitem">Create Account</p>
+                <p role="listitem">Update Roadmap Progress</p>
+                <p role="listitem">Setup Public Profile</p>
+                <p role="listitem">Complete your firs project</p>
+                <p role="listitem">Invite your Friends</p>
             </div>
         </div>
     </section>

@@ -44,24 +44,12 @@
     border-bottom: 2px solid #7d2ae8;
     transition: all 0.3s ease-in-out;
 }
-
-.error--messages {
-    color: red;
-    font-size: 14px;
-    margin-top: 5px;
-    display: none;
-}
-
 .form--container__inputs:focus {
     outline: none;
     transform: scale(1.05);
 }
-.form--container__inputs:invalid{
+.form--container__inputs:user-invalid{
     border-bottom: 2px solid red;
-}
-#email:invalid ~ .error--messages {
-    display: block;
-
 }
 
 .password--visibility{
