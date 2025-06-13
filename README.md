@@ -9,6 +9,7 @@
 - [Testimonial Cards](https://roadmap.sh/projects/testimonial-cards)
 - [Datepicker UI](https://roadmap.sh/projects/datepicker-ui)
 - [Accessible Form UI](https://roadmap.sh/projects/accessible-form-ui)
+- [Image Grid Layout](https://roadmap.sh/projects/image-grid)
 
 ## Roadmap.sh Completed Projects list
 
@@ -25,3 +26,5 @@
 [06 - Datepicker UI](https://github.com/Lucas9578/Roadmap.sh---Projects/tree/main/06-Datepicker-UI)
 
 [07 - Accessible Form UI](https://github.com/Lucas9578/Roadmap.sh---Projects/tree/main/07-Accessible-Form-UI)
+
+[08 - Image Grid](https://github.com/Lucas9578/Roadmap.sh---Projects/tree/main/08-Image-Grid)
