@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        "large-rock soup street"
+        "large-rock door street"
+        "living door beach";
+    gap: 1vw;
+}
+.grid-container img {
+    height: 100%;
+    width: 100%;
+}
+
+#grid-container__large-rock {
+    grid-area: large-rock;
+}
+#grid-container__soup {
+    grid-area: soup;
+}
+#grid-container__street {
+    grid-area: street;
+}
+#grid-container__door {
+    grid-area: door;
+}
+#grid-container__living {
+    grid-area: living;
+}
+#grid-container__beach {
+    grid-area: beach;
+}
+
+@media screen and (max-width: 850px){
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+            "large-rock soup"
+            "large-rock door"
+            "living door"
+            "street beach"
+            "street none";
+        gap: 1vw;
+    }
+}
+@media screen and (max-width: 450px) {
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+            "soup"
+            "large-rock"
+            "large-rock"
+            "living"
+            "street"
+            "street"
+            "door"
+            "door"
+            "beach";
+        gap: 0;
+    }
+}
