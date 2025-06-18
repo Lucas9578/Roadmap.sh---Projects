@@ -31,7 +31,6 @@ body {
     z-index: 3;
 
     color: black;
-    text-decoration: none;
     transition: all 0.3s ease;
 }
 .container__tooltip {
