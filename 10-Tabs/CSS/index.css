@@ -21,7 +21,48 @@
     justify-content: space-around;
     align-items: center;
 }
+.tabs-list span {
+    height: 30px;
+    border: 1px solid #000;
+}
+
 .tab-item {
     list-style: none;
 }
+.tab-item button {
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    background: none;
+
+    transition: all 0.3s ease-in;
+}
+.tab-item button:hover {
+    background-color: rgb(184, 184, 184);
+    border-bottom: 1px solid #000;
+}
+.tab-item button:active {
+    background-color: aquamarine;
+}
+/* #endregion */
+
+/* #region Main*/
+
+.container {
+    padding: 20px;
+}
+.container__tabs{
+    margin: 20px 0;
+    padding: 50px 0;
+
+    text-align: center;
+
+    color: #fff;
+    background-color: #000;
+
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+
 /* #endregion */

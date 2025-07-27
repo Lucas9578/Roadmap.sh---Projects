@@ -18,10 +18,13 @@
         <header class="header">
             <nav>
                 <ul class="tabs-list">
-                    <li class="tab-item"><button>First Tab</button></li>
-                    <li class="tab-item"><button>Second Tab</button></li>
-                    <li class="tab-item"><button>Third Tab</button></li>
-                    <li class="tab-item"><button>Fourth Tab</button></li>
+                    <li class="tab-item"><button onclick="cambiarDisplay(1)">First Tab</button></li>
+                    <span></span>
+                    <li class="tab-item"><button onclick="cambiarDisplay(2)">Second Tab</button></li>
+                    <span></span>
+                    <li class="tab-item"><button onclick="cambiarDisplay(3)">Third Tab</button></li>
+                    <span></span>
+                    <li class="tab-item"><button onclick="cambiarDisplay(4)">Fourth Tab</button></li>
                 </ul>
             </nav>
         </header>
@@ -30,23 +33,23 @@
                 dolor? Accusantium inventore, in est nostrum dignissimos minus possimus, minima quia tenetur provident
                 dolor voluptate consequuntur eos.</p>
             <div class="container__options">
-                <div class="container__tabs">
+                <div id="1" class="container__tabs">
                     <p>First Tab</p>
                 </div>
-                <div class="container__tabs" hidden>
+                <div id="2" class="container__tabs" hidden>
                     <p>Second Tab</p>
                 </div>
-                <div class="container__tabs" hidden>
+                <div id="3" class="container__tabs" hidden>
                     <p>Third Tab</p>
                 </div>
-                <div class="container__tabs" hidden>
+                <div id="4" class="container__tabs" hidden>
                     <p>Fourth Tab</p>
                 </div>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, repellendus.</p>
         </section>
     </main>
-    <script src="" async defer></script>
+    <script src="JS/index.js"></script>
 </body>
 
 </html>
