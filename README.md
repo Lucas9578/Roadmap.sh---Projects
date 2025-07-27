@@ -11,6 +11,7 @@
 - [Accessible Form UI](https://roadmap.sh/projects/accessible-form-ui)
 - [Image Grid Layout](https://roadmap.sh/projects/image-grid)
 - [Tooltip UI](https://roadmap.sh/projects/tooltip-ui)
+- [Tabs](https://roadmap.sh/projects/simple-tabs)
 
 ## Roadmap.sh Completed Projects list
 
@@ -31,3 +32,5 @@
 [08 - Image Grid](https://github.com/Lucas9578/Roadmap.sh---Projects/tree/main/08-Image-Grid)
 
 [09 - Tooltip UI](https://github.com/Lucas9578/Roadmap.sh---Projects/tree/main/09-Tooltip-UI)
+
+[10 - Tabs](https://github.com/Lucas9578/Roadmap.sh---Projects/tree/main/10-Tabs)
