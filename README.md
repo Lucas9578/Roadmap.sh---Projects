@@ -38,3 +38,5 @@
 [10 - Tabs](https://github.com/Lucas9578/Roadmap.sh---Projects/tree/main/10-Tabs)
 
 [11 - Cookie Consent](https://github.com/Lucas9578/Roadmap.sh---Projects/tree/main/11-Cookie-Consent)
+
+[12 - Restricted TextArea](https://github.com/Lucas9578/Roadmap.sh---Projects/tree/main/12-Restricted-Textarea)
